@@ -1,0 +1,25 @@
+{
+  "name": "new-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UZBase/new-Telegram-bot.git"
+  },
+  "author": "Umarjon Sharofiddinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UZBase/new-Telegram-bot/issues"
+  },
+  "homepage": "https://github.com/UZBase/new-Telegram-bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
