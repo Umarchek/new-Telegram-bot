@@ -21,6 +21,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "node-telegram-bot-api": "^0.54.0"
   }
 }
