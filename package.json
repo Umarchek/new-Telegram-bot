@@ -1,27 +1,25 @@
 {
-  "name": "new-telegram-bot",
+  "name": "crud-with-mysql-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "This bot can add,remove,update words.Database MySql.",
+  "main": "bot.js",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UZBase/new-Telegram-bot.git"
   },
-  "author": "Umarjon Sharofiddinov",
+  "author": "Umarjon Sharofiddinov <sharofiddinov.07@mail.ru>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/UZBase/new-Telegram-bot/issues"
   },
   "homepage": "https://github.com/UZBase/new-Telegram-bot#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "dependencies": {
-    "axios": "^0.24.0",
-    "node-telegram-bot-api": "^0.54.0"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "telegraf": "^4.5.2"
   }
 }
