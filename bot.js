@@ -47,23 +47,16 @@ bot.command("fruitlist", (ctx) => {
   ctx.reply(fruitMessage);
 });
 
-bot.command("fruit", (ctx) => {
+bot.command("addfruit", (ctx) => {
   let input = ctx.message.text.split(" ");
   if (input.length != 2) {
     ctx.reply("Вы должны дать название фрукта в аргументе 2");
     return;
   }
-  //   console.log(input[1]);
-  let fruitInput = input[1];
-  dataStore.forEach((item) => {
-    if (item.name.includes(fruitInput)) {
-      let price = item.price.toLocaleString(undefined, {
-        minimumFractionDigits: 2,
-      });
-      ctx.reply("Rp " + price);
-      return;
-    }
-  });
+    console.log(input[1]);
+    console.log(input[2]);
+  // let fruitInput = input[1];
+ 
 });
 
 bot.launch();
