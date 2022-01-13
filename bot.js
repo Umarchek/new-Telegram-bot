@@ -53,10 +53,10 @@ bot.command("addfruit", (ctx) => {
     ctx.reply("Вы должны дать название фрукта в аргументе 2");
     return;
   }
-    console.log(input[1]);
-    console.log(input[2]);
+  console.log(input[1]);
+  console.log(input[2]);
   // let fruitInput = input[1];
- 
+
 });
 
 bot.launch();
